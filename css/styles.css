@@ -1,0 +1,56 @@
+#login {
+	padding-top: 70px;
+}
+.login #login h1 a {
+	background-size: 100px;
+	height: 100px;
+}
+
+.login #nav a, .login #backtoblog a {
+	color: #1c95e0 !important;
+}
+.login #nav a:hover, .login #backtoblog a:hover {
+	color: #ff8300 !important;
+}
+
+.login form {
+	-webkit-box-shadow:none;
+	box-shadow: none;
+}
+
+.login .button-primary {
+	background: #1c95e0 !important; /* Old browsers */
+	border: none;
+	border-radius: 0;
+	outline: 0;
+	box-shadow: none;
+}
+.login .button-primary:focus {
+	background: #2ca4ea !important; /* Old browsers */
+	border: none;
+	border-radius: 0;
+	-webkit-box-shadow:none;
+	box-shadow: none;
+}
+.login .button-primary:hover {
+	background: #2ca4ea !important; /* Old browsers */
+	border: none;
+	border-radius: 0;
+}
+.login .button-primary:active {
+	background: #1287cc !important; /* Old browsers */
+	top:1px;
+	-webkit-transform: translateY(1px);
+	border: none;
+	border-radius: 0;
+}
+
+.login form .input, .login input[type="text"] {
+	border: 1px solid #e5e5e5;
+	background: #fefefe;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 0;
+	padding: 8px;
+}
